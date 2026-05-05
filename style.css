@@ -412,5 +412,13 @@ html {
 }
 a[href]:not(.btn-report):hover {
   text-decoration: underline;
-  opacity: 0.8;
+  text-underline-offset: 3px;
+  opacity: 0.85;
+}
+.card-body a[href] {
+  text-decoration: none;
+}
+.card-body a[href]:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
