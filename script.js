@@ -2,11 +2,15 @@
 function typeEffect() {
   const p1 = "QA ", p2 = "Portfolio";
   const s1 = document.getElementById('type-p1'), s2 = document.getElementById('type-p2');
+  const cursor = document.querySelector('.typing-cursor');
   if (!s1 || !s2) return;
   s1.textContent = ""; s2.textContent = "";
   let i = 0, j = 0;
   function step1() { if (i < p1.length) { s1.textContent += p1[i++]; setTimeout(step1, 150); } else step2(); }
-  function step2() { if (j < p2.length) { s2.textContent += p2[j++]; setTimeout(step2, 100); } }
+  function step2() { if (j < p2.length) { s2.textContent += p2[j++]; setTimeout(step2, 100); } else {
+    cursor.style.animation = 'blink 0.8s infinite';
+  } }
+  cursor.style.animation = 'none';
   step1();
 }
 

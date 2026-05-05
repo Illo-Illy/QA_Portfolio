@@ -115,6 +115,10 @@ body {
   opacity: 1;
 }
 
+.s1-photo-mobile {
+  display: none;
+}
+
 /* TOP NAV */
 .top-nav {
   position: fixed;
@@ -246,7 +250,7 @@ body {
   padding-top: 44px;
 }
 .s1-photo {
-  width: 42%;
+  width: 40%;
   background: #000;
   position: relative;
 }
@@ -282,7 +286,6 @@ body {
   height: 52px;
   background-color: var(--cyan);
   margin-left: 10px;
-  animation: blink 0.8s infinite;
   vertical-align: middle;
   position: relative;
   top: -4px;
