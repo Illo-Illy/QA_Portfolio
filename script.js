@@ -50,7 +50,7 @@ window.addEventListener('wheel', (e) => {
   if (scrollLocked) return;
   scrollLocked = true;
   goTo(current + (e.deltaY > 0 ? 1 : -1));
-  setTimeout(() => scrollLocked = false, 800);
+  setTimeout(() => scrollLocked = false, 420);
 }, { passive: true });
 
 // --- SWIPE (Mobile) ---
