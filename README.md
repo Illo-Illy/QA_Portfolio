@@ -1,2 +1,2 @@
 # QA_Portfolio
-My portfolio for job search as a QA engineer
+Repo for hosting html-page with my portfolio for job search as a QA engineer.
