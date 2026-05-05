@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+
+  body {
+    overflow: auto !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .slides-wrapper {
+    height: auto;
+  }
+
+  .slide {
+    position: relative !important;
+    display: flex !important;
+    opacity: 1 !important;
+    padding: 80px 20px 40px;
+  }
+
+  #slide1 {
+    flex-direction: column;
+  }
+
+  .s1-photo {
+    width: 100%;
+    height: 250px;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+  #cursor {
+    display: none;
+  }
+
+  .side-dots {
+    display: none;
+  }
+
+  .card,
+  .case-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card p,
+  .case-card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .card ul,
+  .case-card ul {
+    max-height: 200px;
+    overflow: auto;
+  }
+}
